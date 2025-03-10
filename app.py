@@ -6,9 +6,8 @@ import torch.nn as nn
 import torchvision.models as models
 import torch.optim as optim
 
+
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-
-
 
 
 def image_loader(image, img_size):
